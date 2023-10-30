@@ -74,15 +74,15 @@ document.getElementById("startChallengeBtn").addEventListener("click", function(
 
 
       //Create an array of UX challenges for e-commerce
-      const uxChallengeEcommerce = ["Mobile Checkout Process: Redesign the mobile checkout process for an e-commerce app to reduce cart abandonment and make it more user-friendly" ,"Accessibility Improvements: Enhance the accessibility of a government website to ensure it's usable by people with disabilities, including screen readers and keyboard navigation.", "Onboarding for a Complex App: Create an intuitive onboarding experience for a complex software application, helping users quickly understand its core features and functionalities.", "Dashboard Customization: Develop a dashboard for a data analytics tool that allows users to customize and personalize their view, prioritizing the most relevant data for their needs.", "E-Commerce Product Filtering: Improve the product filtering and sorting options on an online store to make it easier for customers to find and purchase products." ];
+      const uxChallengeEcommerce = ["Design a login screen for online shop", "Design a product page for mobile app", "Design a chekout screen for online store"];
 
 
       
       //Create an array of UX challenges for Health & Fitness
-      const uxChallengeHealth =[];
+      const uxChallengeHealth =["Design a login screen for your local gym mobile application", "Design a dashboard for cycling mobile application, include time spend on the activity, kilometers, aclories burned etc", "Design a user flow for meditation application, include timer, type of meditation"];
 
       //Create an array of UX challenges for Social Media
-      const uxChallengeMedia =[];
+      const uxChallengeMedia =["Design a sign-up page for social media app", "Design a landing page promoting social media", "Design a user profile for fictional social media account", "Dersign settings page for fictional social media account"];
 
       //Create an array of UX challenges for Food
-      const uxChallengeFood =[];
+      const uxChallengeFood =["Design a landing page for local restaurant", "Design a app with image slider featuring food dishes", "Design a Q&A page for restaurant"];
