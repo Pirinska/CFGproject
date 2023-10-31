@@ -43,7 +43,7 @@ function pickChallenge() {
    return uxChallengeFood.splice(rnd, 1);
 }
 while (uxChallengeFood.length > 0) {
-   console.log(pickChallenge(), uxChallengeFood[1]);
+   // console.log(pickChallenge(), uxChallengeFood[1]);
 }
 
 
