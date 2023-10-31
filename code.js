@@ -1,7 +1,7 @@
-document.getElementById("startChallengeBtn").addEventListener("click", function() {
-      window.location.href = "question.html";
-  }
-  );
+// document.getElementById("startChallengeBtn").addEventListener("click", function() {
+//       window.location.href = "question.html";
+//   }
+//   );
 
   document.getElementById("continueToChallenge").addEventListener("click", function() {
       window.location.href = "challenge.html";
@@ -37,3 +37,13 @@ const uxChallengeHealth = [
       "Cooking Tutorial Interface: Create an interactive interface for a cooking app that provides step-by-step video tutorials, ingredient lists, and real-time feedback."
   ];
    
+
+function pickChallenge() {
+   const rnd = math.floor(Math.random()* uxChallengeFood.length );
+   return uxChallengeFood.splice(rnd, 1);
+}
+while (uxChallengeFood.length > 0) {
+   console.log(pickChallenge(), uxChallengeFood);
+}
+
+
