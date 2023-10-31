@@ -29,21 +29,30 @@ const uxChallengeHealth = [
   ];
 
   
-  const uxChallengeFood = [
+
+   
+
+// function pickChallenge() {
+//    const rnd = Math.floor(Math.random()* uxChallengeFood.length );
+//    return uxChallengeFood.splice(rnd, 1);
+// }
+// console.log(uxChallengeFood[0]);
+// while (uxChallengeFood.length > 0) {
+//    // console.log(pickChallenge(), uxChallengeFood[1]);
+// }
+
+
+function GetValue()
+{
+      const uxChallengeFood = [
       "Recipe Discovery: Design an interface for a recipe app that suggests meals based on ingredients users have in their fridge.",
       "Dining Experience: Enhance the booking and menu selection process for a restaurant's mobile app, focusing on seamless user experience.",
       "Grocery Shopping Assistant: Develop an app feature that guides users through their grocery shopping, sorting their list by aisle and offering product suggestions.",
       "Nutrition Breakdown: Redesign the nutritional information section on a food delivery app, making it more intuitive and informative.",
       "Cooking Tutorial Interface: Create an interactive interface for a cooking app that provides step-by-step video tutorials, ingredient lists, and real-time feedback."
   ];
-   
-
-function pickChallenge() {
-   const rnd = math.floor(Math.random()* uxChallengeFood.length );
-   return uxChallengeFood.splice(rnd, 1);
+    var random = uxChallengeFood[Math.floor(Math.random() * uxChallengeFood.length)];
+    //alert(random);
+    document.getElementById("message").innerHTML=random;
+    
 }
-while (uxChallengeFood.length > 0) {
-   console.log(pickChallenge(), uxChallengeFood);
-}
-
-
