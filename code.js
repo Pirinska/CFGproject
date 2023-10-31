@@ -39,11 +39,11 @@ const uxChallengeHealth = [
    
 
 function pickChallenge() {
-   const rnd = math.floor(Math.random()* uxChallengeFood.length );
+   const rnd = Math.floor(Math.random()* uxChallengeFood.length );
    return uxChallengeFood.splice(rnd, 1);
 }
 while (uxChallengeFood.length > 0) {
-   console.log(pickChallenge(), uxChallengeFood);
+   console.log(pickChallenge(), uxChallengeFood[1]);
 }
 
 
