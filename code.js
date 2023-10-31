@@ -1,7 +1,7 @@
-document.getElementById("startChallengeBtn").addEventListener("click", function() {
-      window.location.href = "question.html";
-  }
-  );
+// document.getElementById("startChallengeBtn").addEventListener("click", function() {
+//       window.location.href = "question.html";
+//   }
+//   );
 
   document.getElementById("continueToChallenge").addEventListener("click", function() {
       window.location.href = "challenge.html";
