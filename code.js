@@ -42,6 +42,7 @@ function pickChallenge() {
    const rnd = Math.floor(Math.random()* uxChallengeFood.length );
    return uxChallengeFood.splice(rnd, 1);
 }
+console.log(uxChallengeFood[0]);
 // while (uxChallengeFood.length > 0) {
 //    // console.log(pickChallenge(), uxChallengeFood[1]);
 // }
