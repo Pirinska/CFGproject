@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
   /* turning an element into a special box that helps you arrange and align its contents more easily*/
     display: flex;
     flex-direction: column;
@@ -12,11 +12,14 @@ body {
 
 h1 {
     margin-bottom: 20px;
+    color:#ffffff;
+    text-shadow: 0px 0px 10px #0000009f;
 }
 
 #btnSearch {
     align-items: center;
-    padding: 16px 16px;
+    padding: 20px 20px;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
     cursor: pointer;
     background-color: #ffffff;
@@ -59,4 +62,3 @@ form {
 form label {
     font-size: 20px;
 }
-
