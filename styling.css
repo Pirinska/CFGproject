@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
   /* turning an element into a special box that helps you arrange and align its contents more easily*/
     display: flex;
     flex-direction: column;
@@ -12,11 +12,14 @@ body {
 
 h1 {
     margin-bottom: 20px;
+    color:#ffffff;
+    text-shadow: 0px 0px 10px #0000009f;
 }
 
-button {
+#btnSearch {
     align-items: center;
-    padding: 16px 16px;
+    padding: 20px 20px;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
     cursor: pointer;
     background-color: #ffffff;
@@ -26,8 +29,26 @@ button {
     box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
 }
 
+#message {
+font-size: 20px;
+font-weight: 200;
+text-align: center;
+}
 
-
+#flexSpacing {
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    gap: 2rem;
+}
+#box {
+padding: 2rem;
+height: 10rem;
+width: 50rem;
+background: rgba(216, 193, 238, 0.591);
+border-radius: 0.4rem;
+}
 button:hover {
     background-color: #e8e8e8;
 }
@@ -41,4 +62,3 @@ form {
 form label {
     font-size: 20px;
 }
-
